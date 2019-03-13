@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
 *.so
-
+.ipynb_checkpoints
 build/
 dist/
 *.egg-info/
