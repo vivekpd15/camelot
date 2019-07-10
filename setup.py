@@ -16,15 +16,15 @@ with open('README.md', 'r') as f:
 requires = [
     'chardet>=3.0.4',
     'click>=6.7',
-    'numpy>=1.13.3',
+    'numpy>=1.16.4',
     'openpyxl>=2.5.8',
-    'pandas>=0.23.4',
+    'pandas>=0.24.2',
     'pdfminer.six>=20170720',
     'PyPDF2>=1.26.0'
 ]
 
 cv_requires = [
-    'opencv-python>=3.4.2.17'
+    'opencv-python>=3.4.5.20'
 ]
 
 plot_requires = [

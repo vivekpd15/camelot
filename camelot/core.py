@@ -632,11 +632,7 @@ class Table(object):
 
         """
         html_string = self.df.to_html(**kwargs)
-<<<<<<< HEAD
         with open(path, 'w', encoding='utf8', errors='ignore') as f:
-=======
-        with open(path, "w") as f:
->>>>>>> 0efb3ca1b0ad382c2ed2f5c503c16901b3251421
             f.write(html_string)
 
     def to_sqlite(self, path, **kwargs):
