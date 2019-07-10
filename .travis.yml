@@ -11,10 +11,6 @@ jobs:
     - stage: test
       script:
         - make test
-      python: '2.7'
-    - stage: test
-      script:
-        - make test
       python: '3.5'
     - stage: test
       script:
@@ -27,6 +23,11 @@ jobs:
       dist: xenial
     - stage: coverage
       python: '3.6'
+      script:
+        - make test
+        - codecov --verbose
+    - stage: coverage
+      python: '3.7'
       script:
         - make test
         - codecov --verbose
